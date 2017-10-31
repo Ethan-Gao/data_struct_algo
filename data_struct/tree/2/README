@@ -1,0 +1,31 @@
+参考
+http://blog.sina.com.cn/s/blog_5207b6c401009fq0.html
+算法
+（1）访问根结点，并将根结点入队；
+（2）当队列不空时，重复下列操作：
+从队列退出一个结点；
+若其有左孩子，则访问左孩子，并将其左孩子入队；
+若其有右孩子，则访问右孩子，并将其右孩子入队；
+其基本算法为:
+//按层次遍历树中结点
+void traverse(bitree bt)
+{
+ linkqueue q;
+ bitree p;
+ initqueue(q);      //初始化一个空的队列
+ p=bt;
+ enqueue(q,p);      //入队
+ while(queueempty(q)!=1)
+ {
+  dequeue(q,p);      //出队
+   if(p->lchild!=NULL)
+   enqueue(q,p->lchild);             //访问左子树
+  if(p->rchild!=NULL)
+   enqueue(q,p->rchild);             //访问右子树
+ }
+ printf("\n");
+}
+
+特别注意：
+由于C不支持对函数引用传参数，因此此程序使用g++编译，若使用gcc编译则
+int createbitree(bitree &T,int&sum)将报错，需要修改程序，传入二级指针
