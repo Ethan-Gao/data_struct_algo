@@ -12,7 +12,6 @@ typedef struct _TREE_ {
 // 定义树函数
 void insert(TREE_TYPE value);// 向树添加一个节点
 TREE_TYPE *find(TREE_TYPE value);// 查找一个特定值
-void delete(TREE_TYPE value);// 从二叉树删除一个节点
 void preorder(PTREE node);// 先序遍历二叉树
 void middleorder(PTREE node);// 中序遍历二叉树
 void postorder(PTREE node);// 后序遍历二叉树

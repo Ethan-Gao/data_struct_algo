@@ -43,10 +43,6 @@ TREE_TYPE *find(TREE_TYPE value){
 	else return NULL;// 未找到
 }
 
-void delete(TREE_TYPE value){
-	
-}
-
 void preorder(PTREE node){
 	if(node != NULL){
 		printf("%d ",node->value);
