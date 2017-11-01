@@ -1,0 +1,8 @@
+sll：单链表
+stack：单链表栈
+queue：单链表队列
+dll：双链表
+deque：双链表队列/双端队列
+
+说明:
+以上所有程序动画见https://visualgo.net/en/list

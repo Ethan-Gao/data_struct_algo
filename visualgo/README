@@ -1,6 +1,4 @@
-sll
-单链表，详见https://visualgo.net/en/list
-stack: 栈
-queue: 队列
-dll: 双链表
-deque: 双端队列
+ll：linked list，链表
+
+说明：
+以上所有程序动画见https://visualgo.net/en
