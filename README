@@ -2,6 +2,8 @@ pointer_on_C
 书上有关数据结构和算法的相关示例程序和代码
 leetcode
 网站leetcode上面一些算法题的解答
+visualgo
+根据https://visualgo.net网站动画编写的示例程序，结合网上代码
 
 说明：
 大部分程序使用C语言(gcc编译)，少数使用C++格式(g++编译)
