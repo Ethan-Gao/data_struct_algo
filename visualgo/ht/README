@@ -1,0 +1,10 @@
+lp: Linear Probing,线性探查
+qp: Quadratic Probing,二次探查
+dh: Double Hashing,双重哈希
+sc: Separate Chaining, 单链
+
+说明:
+以上所有程序动画见https://visualgo.net/en/hashtable
+参考文章:
+http://blog.csdn.net/h3243212/article/details/52811969
+http://www.cnblogs.com/gaochundong/p/hashtable_and_perfect_hashing.html

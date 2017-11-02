@@ -1,0 +1,13 @@
+bub: Bubble Sort,冒泡排序
+sel: Select Sort,选择排序
+ins: Insert Sort,插入排序
+mer: Merge Sort,归并排序
+qui: Quick Sort,快速排序 
+r-q: Random Quick Sort,随机快速排序
+cou: Counting Sort,计数排序
+rad: Radix Sort,基数排序
+
+说明:
+所有排序动画见https://visualgo.net/en/sorting
+参考:
+
