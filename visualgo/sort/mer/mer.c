@@ -28,22 +28,22 @@ void creat(void){
 void merge_sort_recursive(int arr[], int reg[], int start, int end) {
 	/*
 	** 作用:
-	** 不停二分直到只剩下1个或者2个元素
+	** 不停二分直到剩下1个元素
 	** 分析:
-	** 由于start表示开始，end表示结束，所以只有剩下1个或者2个元素才会满足
+	** 由于start表示开始，end表示结束，所以只有剩下1个元素才会满足
 	** start >= end这个条件，从而结束递归，然后执行后面内容
 	*/
 	if (start >= end) return;
 	int len = end - start, mid = (len >> 1) + start;
 	int start1 = start, end1 = mid;
 	int start2 = mid + 1, end2 = end;
-//	printf("%d:(%d-%d) (%d-%d)\n", i++, start1, end1, start2, end2);
+	printf("%d:(%d-%d) (%d-%d)\n", i++, start1, end1, start2, end2);
 	merge_sort_recursive(arr, reg, start1, end1);
-//	printf("%d:(%d-%d) (%d-%d)\n", i++, start1, end1, start2, end2);
+	printf("%d:(%d-%d) (%d-%d)\n", i++, start1, end1, start2, end2);
 	merge_sort_recursive(arr, reg, start2, end2);
 	
 	/* 将二分完后的数组进行排序，然后在合并放入reg数组 */
-//	printf("%d:(%d-%d) (%d-%d)\n", i++, start1, end1, start2, end2);
+	printf("%d:(%d-%d) (%d-%d)\n", i++, start1, end1, start2, end2);
 	int k = start;
 	while (start1 <= end1 && start2 <= end2)// 排序二分后的数组放入reg数组
 		reg[k++] = arr[start1] < arr[start2] ? arr[start1++] : arr[start2++];
