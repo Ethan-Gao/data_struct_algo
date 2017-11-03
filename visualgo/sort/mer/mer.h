@@ -3,7 +3,7 @@
 
 /* 声明操作函数 */
 void creat(void);// 创建随机元素
-void merge_sort(int start, int end);// 排序,start为位置起始索引,end为结束起始索引
+void merge_sort(int arr[], const int len);// 排序,start为位置起始索引,end为结束起始索引
 void print(void);// 打印
 
 /* 测试函数 */
