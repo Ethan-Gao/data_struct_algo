@@ -1,4 +1,5 @@
--data_struct
--常用数据结构,主要包括链表(单链表、双链表)、栈、队列、二叉树、哈希表
--algo
--常用算法,详见README
+list: 链表
+queue: 队列
+stack: 栈
+tree: 二叉树
+pointers_on_C.pdf: <C和指针>中文书籍
