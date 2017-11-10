@@ -19,7 +19,8 @@ void creat(void){
 }
 
 /*
-** 方式并不唯一，但是算法都类似
+** 方式并不唯一，但是算法都类似，
+** 普通快排选择第一个或者最后一个元素，随机快排随机选择元素
 ** 参考:
 ** http://blog.csdn.net/guoyong10721073/article/details/8025201
 ** https://visualgo.net/en/sorting  QUICK_SORT

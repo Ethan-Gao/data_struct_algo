@@ -1,3 +1,5 @@
+common
+共用代码，包括产生随机数据、时间统计
 pointer_on_C
 根据<C和指针>书籍编写的程序
 leetcode
